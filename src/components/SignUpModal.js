@@ -34,7 +34,7 @@ const SignUpModal = (props) => {
                 <div className='col'>
                     <div className='mt-4'>
                         <button style={{ paddingLeft: 70 }} className='pe-5 btn btn-link text-black text-decoration-none' >Already have an account <span className='text-primary fw-bold'> Sign In</span></button>
-                        <img className='' src="https://i.ibb.co/5MZ5KQq/signin.png" alt="" />
+                        <img className='hidden-xs d-none d-sm-block' src="https://i.ibb.co/5MZ5KQq/signin.png" alt="" />
                     </div>
                 </div>
             </div>
