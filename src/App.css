@@ -7,6 +7,26 @@
   pointer-events: none;
 }
 
+.card-width {
+  width: 650px;
+}
+@media  (min-width: 360px) and (max-width: 414px) {
+  .card-width {
+    width: 100vw;
+  }
+}
+.background-banner {
+  background-image: url('https://i.ibb.co/f0XGSfB/Rectangle-2.png');
+}
+@media (min-width: 360px) and (max-width: 414px) {
+  .background-banner {
+    background-image: url('https://i.ibb.co/SyYB4dY/Rectangle-2-1.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
