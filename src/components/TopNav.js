@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import SignUpModal from './SignUpModal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCaretDown, faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons'
+import { faCaretDown} from '@fortawesome/free-solid-svg-icons'
 
 const TopNav = () => {
 
