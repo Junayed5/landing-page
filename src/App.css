@@ -10,11 +10,6 @@
 .card-width {
   width: 650px;
 }
-@media  (min-width: 360px) and (max-width: 414px) {
-  .card-width {
-    width: 100%;
-  }
-}
 .background-banner {
   background-image: url('https://i.ibb.co/f0XGSfB/Rectangle-2.png');
   background-size: cover;
@@ -30,15 +25,6 @@
   width: 100%;
 }
 
-@media (min-width: 359px) and (max-width: 414px) {
-  .background-banner {
-    background-image: url('https://i.ibb.co/SyYB4dY/Rectangle-2-1.png');
-    background-position: center;
-    background-size: cover;
-    height: 236px;
-  }
-}
-
 .banner-title{
   position: relative;
 }
@@ -49,6 +35,15 @@
 }
 
 @media (min-width: 359px) and (max-width: 414px) {
+  .card-width {
+    width: 100%;
+  }
+  .background-banner {
+    background-image: url('https://i.ibb.co/SyYB4dY/Rectangle-2-1.png');
+    background-position: center;
+    background-size: cover;
+    height: 236px;
+  }
   .banner-title{
     position: relative;
   }
