@@ -21,7 +21,7 @@ const PostSection = () => {
                         <button type='button' className='btn btn-light fw-bold me-3'>Write a Post <FontAwesomeIcon className='px-2' icon={faCaretDown}/></button>
                         <button type='button' className='btn btn-primary fw-bold'><FontAwesomeIcon className='px-2' icon={faUserGroup}/> Join Group </button>
                     </div>
-                    <button type='button' className='btn btn-light fw-bold hidden-lg d-lg-none '>Filter : All <FontAwesomeIcon className='px-2' icon={faCaretDown}/></button>
+                    <button type='button' className='btn btn-light fw-bold hidden-lg d-lg-none text-gray'>Filter : All <FontAwesomeIcon className='px-2' icon={faCaretDown}/></button>
                 </div>
             </div>
             <hr />

@@ -21,9 +21,9 @@ const TopNav = () => {
                     <Navbar.Collapse id="navbarScroll">
                         <Form className="mx-auto">
                             <Form.Control
-                                style={{ width: 350 }}
+                                style={{ width: 360, background: `url("https://static.thenounproject.com/png/101791-200.png")`, backgroundSize: 20, backgroundRepeat: 'no-repeat', backgroundPositionX: 10, backgroundPositionY: 9, textIndent: 30 }}
                                 type="search"
-                                placeholder="Search for your favorite group ATG"
+                                placeholder="Search for your favorite groups in ATG"
                                 className="me-2 rounded-pill fw-normal text-light fw-bold"
                                 aria-label="Search"
                             />
